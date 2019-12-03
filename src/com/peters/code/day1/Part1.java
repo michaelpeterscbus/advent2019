@@ -1,13 +1,13 @@
-package com.peters.code;
+package com.peters.code.day1;
 
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.IOException;
 
-public class Day1_1 {
+public class Part1 {
 	public static void main(String[] args) throws IOException {
-		File file = new File("/Users/kristenvilt/Desktop/advent2019/day1_1input.txt");
+		File file = new File("src/com/peters/code/day1/input.txt");
 		BufferedReader br = new BufferedReader(new FileReader(file));
 		 String input; 
 		 int sum = 0;
